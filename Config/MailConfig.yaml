@@ -1,0 +1,16 @@
+#邮箱配置,设置服务器，用户名，口令以及邮箱后缀
+mail_host: smtp.qq.com
+mail_port: 465
+mail_user: nfd_autotest@foxmail.com
+mail_password: fzchmnpdinoubcfj
+mail_postfix:
+
+#测试邮箱
+debuglist:
+  - liumei@nongfadai.com
+#正式邮箱
+receiverlist:
+  - liumei@nongfadai.com
+  - leiyulong@nognfadai.com
+  - zhouyun@nongfadai.com
+  - liuwaiping@nongfadai.com

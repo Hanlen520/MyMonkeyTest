@@ -1,0 +1,727 @@
+  bash arg: -s
+  bash arg: 20
+  bash arg: -p
+  bash arg: com.nongfadai.android.beta3220
+  bash arg: --hprof
+  bash arg: --throttle
+  bash arg: 500
+  bash arg: --ignore-crashes
+  bash arg: --ignore-timeouts
+  bash arg: --ignore-security-exceptions
+  bash arg: --ignore-native-crashes
+  bash arg: --monitor-native-crashes
+  bash arg: --pct-syskeys
+  bash arg: 10
+  bash arg: -v
+  bash arg: -v
+  bash arg: -v
+  bash arg: 100000
+:Monkey: seed=20 count=100000
+:AllowPackage: com.nongfadai.android.beta3220
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.gallery3d.vivo.GalleryTabActivity (from package com.vivo.gallery)
+//   - NOT USING main activity com.android.bbkmusic.WidgetToTrackActivity (from package com.android.bbkmusic)
+//   - NOT USING main activity com.android.bbksoundrecorder.SoundRecorder (from package com.android.bbksoundrecorder)
+//   - NOT USING main activity com.android.camera.CameraActivity (from package com.android.camera)
+//   - NOT USING main activity com.android.contacts.DialtactsContactsEntryActivity (from package com.android.contacts)
+//   - NOT USING main activity com.android.dialer.TwelveKeyDialer (from package com.android.dialer)
+//   - NOT USING main activity com.android.mms.ui.ConversationList (from package com.android.mms)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.bbk.calendar.MainActivity (from package com.bbk.calendar)
+//   - NOT USING main activity com.bbk.theme.Theme (from package com.bbk.theme)
+//   - NOT USING main activity com.chaozh.iReader.ui.activity.WelcomeActivity (from package com.chaozh.iReader)
+//   - NOT USING main activity com.baidu.baidumaps.WelcomeScreen (from package com.baidu.BaiduMap)
+//   - NOT USING main activity com.sohu.inputmethod.sogou.SogouIMELauncher (from package com.sohu.inputmethod.sogou)
+//   - NOT USING main activity com.tencent.pangu.link.SplashActivity (from package com.tencent.android.qqdownloader)
+//   - NOT USING main activity com.android.BBKClock.Timer (from package com.android.BBKClock)
+//   - NOT USING main activity com.android.VideoPlayer.VideoPlayer (from package com.android.VideoPlayer)
+//   - NOT USING main activity com.android.bbkcalculator.Calculator (from package com.android.bbkcalculator)
+//   - NOT USING main activity com.android.filemanager.FileManagerActivity (from package com.android.filemanager)
+//   - NOT USING main activity com.android.notes.Notes (from package com.android.notes)
+//   - NOT USING main activity com.bbk.appstore.ui.AppStore (from package com.bbk.appstore)
+//   - NOT USING main activity com.bbk.cloud.activities.BBKCloudHomeScreen (from package com.bbk.cloud)
+//   - NOT USING main activity com.iqoo.secure.MainGuideActivity (from package com.iqoo.secure)
+//   - NOT USING main activity com.vivo.Tips.MainActivity (from package com.vivo.Tips)
+//   - NOT USING main activity com.vivo.agent.view.activities.JoviHomeNewActivity (from package com.vivo.agent)
+//   - NOT USING main activity com.vivo.browser.BrowserActivity (from package com.vivo.browser)
+//   - NOT USING main activity com.vivo.compass.CalibrationActivity (from package com.vivo.compass)
+//   - NOT USING main activity com.vivo.email.activity.Welcome (from package com.vivo.email)
+//   - NOT USING main activity com.vivo.game.ui.LogoActivity (from package com.vivo.game)
+//   - NOT USING main activity com.vivo.space.ui.LogoActivity (from package com.vivo.space)
+//   - NOT USING main activity com.vivo.wallet.StartPageActivity (from package com.vivo.wallet)
+//   - NOT USING main activity com.vivo.weather.WeatherMain (from package com.vivo.weather)
+//   - NOT USING main activity com.UCMobile.main.UCMobile (from package com.UCMobile)
+//   - NOT USING main activity com.alibaba.android.rimet.biz.LaunchHomeActivity (from package com.alibaba.android.rimet)
+//   - NOT USING main activity com.baidu.netdisk.ui.Navigate (from package com.baidu.netdisk)
+//   - NOT USING main activity com.baidu.searchbox.SplashActivity (from package com.baidu.searchbox)
+//   - NOT USING main activity com.dooboolab.example.MainActivity (from package com.dooboolab.example)
+//   - NOT USING main activity com.example.appbar.MainActivity (from package com.example.appbar)
+//   - NOT USING main activity com.example.example.MainActivity (from package com.example.example)
+//   - NOT USING main activity com.example.number.MainActivity (from package com.example.number)
+//   - NOT USING main activity com.huoshe.tytdr.SplashActivity (from package com.huoshe.tytdr.vivo)
+//   - NOT USING main activity com.idotools.qrcode.SplashActivity (from package com.idotools.qrcode)
+//   - NOT USING main activity com.jingdong.app.mall.main.MainActivity (from package com.jingdong.app.mall)
+//   - NOT USING main activity com.kugou.android.app.splash.SplashActivity (from package com.kugou.android)
+//   - NOT USING main activity com.lcfarm.lcflutter.host.MainActivity (from package com.lcfarm.lcflutter.host)
+//   - NOT USING main activity com.megvii.meglive_still.demo.MainActivity (from package com.megvii.meglive_still.demo)
+//   - NOT USING main activity com.mqtt.android.mqtt.MainActivity (from package com.mqtt.android.mqtt)
+//   - NOT USING main activity com.nongfadai.android.module.welcome.activity.WelcomeActivity (from package com.nongfadai.android)
+//   - NOT USING main activity com.nongfadai.android.module.welcome.activity.WelcomeActivity (from package com.nongfadai.android.beta3200)
+//   - NOT USING main activity com.squareup.leakcanary.internal.DisplayLeakActivity (from package com.nongfadai.android.beta3200)
+//   + Using main activity com.nongfadai.android.module.welcome.activity.WelcomeActivity (from package com.nongfadai.android.beta3220)
+//   - NOT USING main activity com.nongfadai.kappa.MainActivity (from package com.nongfadai.kappa.dev)
+//   - NOT USING main activity com.pp.assistant.activity.MainActivity (from package com.pp.assistant)
+//   - NOT USING main activity com.qingyi.easyrefresh.example.MainActivity (from package com.qingyi.easyrefresh.example)
+//   - NOT USING main activity com.qiyi.video.WelcomeActivity (from package com.qiyi.video)
+//   - NOT USING main activity com.meituan.android.pt.homepage.activity.Welcome (from package com.sankuai.meituan)
+//   - NOT USING main activity com.sigma_rt.totalcontrol.ap.activity.ContainerActivityGroup (from package com.sigma_rt.totalcontrol)
+//   - NOT USING main activity com.sina.weibo.SplashActivity (from package com.sina.weibo)
+//   - NOT USING main activity com.ss.android.article.news.activity.SplashBadgeActivity (from package com.ss.android.article.news)
+//   - NOT USING main activity com.ss.android.ugc.aweme.splash.SplashActivity (from package com.ss.android.ugc.aweme)
+//   - NOT USING main activity com.taobao.fleamarket.home.activity.InitActivity (from package com.taobao.idlefish)
+//   - NOT USING main activity com.taobao.tao.welcome.Welcome (from package com.taobao.taobao)
+//   - NOT USING main activity com.tencent.mm.ui.LauncherUI (from package com.tencent.mm)
+//   - NOT USING main activity com.tencent.mobileqq.activity.SplashActivity (from package com.tencent.mobileqq)
+//   - NOT USING main activity com.tencent.mtt.SplashActivity (from package com.tencent.mtt)
+//   - NOT USING main activity com.tencent.qqlive.ona.activity.SplashHomeActivity (from package com.tencent.qqlive)
+//   - NOT USING main activity com.tencent.tmgp.sgame.SGameActivity (from package com.tencent.tmgp.sgame)
+//   - NOT USING main activity com.tencent.ttpic.module.MainActivity (from package com.tencent.ttpic)
+//   - NOT USING main activity com.vivo.childrenmode.activity.ChildHomeActivity (from package com.vivo.childrenmode)
+//   - NOT USING main activity com.vivo.easyshare.activity.SplashScreenActivity (from package com.vivo.easyshare)
+//   - NOT USING main activity com.ximalaya.ting.android.host.activity.WelComeActivity (from package com.ximalaya.ting.android)
+//   - NOT USING main activity com.xingin.xhs.activity.SplashActivity (from package com.xingin.xhs)
+//   - NOT USING main activity com.youdao.note.activity2.SplashActivity (from package com.youdao.note)
+//   - NOT USING main activity io.flutter.plugins.webviewflutterexample.MainActivity (from package io.flutter.plugins.webviewflutterexample)
+//   - NOT USING main activity video.vue.android.ui.launch.SplashActivity (from package video.vue.android)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+//   - NOT USING main activity com.bbk.launcher2.Launcher (from package com.bbk.launcher2)
+//   - NOT USING main activity com.bbk.scene.launcher.theme.SceneLauncherThemeMainActivity (from package com.bbk.scene.launcher.theme)
+//   - NOT USING main activity com.iqoo.engineermode.EngineerMode (from package com.iqoo.engineermode)
+//   - NOT USING main activity com.vivo.childrenmode.activity.MainActivity (from package com.vivo.childrenmode)
+// Seeded: 20
+// Event percentages:
+//   0: 13.77551%
+//   1: 9.183673%
+//   2: 1.8367347%
+//   3: 13.77551%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 22.959183%
+//   7: 13.77551%
+//   8: 10.0%
+//   9: 1.8367347%
+//   10: 0.9183673%
+//   11: 11.938775%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.nongfadai.android.beta3220/com.nongfadai.android.module.welcome.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.nongfadai.android.beta3220/com.nongfadai.android.module.welcome.activity.WelcomeActivity } in package com.nongfadai.android.beta3220
+    // activityResuming(com.nongfadai.android.beta3220)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 102    // KEYCODE_BUTTON_L1
+:Sending Key (ACTION_UP): 102    // KEYCODE_BUTTON_L1
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 500 milliseconds
+    // Rejecting start of Intent { cmp=com.vivo.upslide/.recents.RecentsActivity } in package com.vivo.upslide
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(368.0,2036.0)
+:Sending Touch (ACTION_UP): 0:(346.34277,2033.093)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+    // activityResuming(com.bbk.launcher2)
+    // Rejecting resume of package com.bbk.launcher2
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Key (ACTION_DOWN): 240    // KEYCODE_TV_SATELLITE_SERVICE
+:Sending Key (ACTION_UP): 240    // KEYCODE_TV_SATELLITE_SERVICE
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(169.0,844.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(163.84831,847.87744) 1:(495.0,2189.0)
+:Sending Touch (ACTION_MOVE): 0:(158.60902,855.83276) 1:(483.8295,2186.862)
+:Sending Touch (ACTION_MOVE): 0:(145.35912,858.2976) 1:(480.6565,2185.97)
+:Sending Touch (ACTION_MOVE): 0:(132.70148,862.45233) 1:(478.46487,2185.3281)
+:Sending Touch (ACTION_MOVE): 0:(128.74057,869.0713) 1:(468.36172,2183.2034)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(124.13415,871.3742) 1:(460.3728,2181.5935)
+:Sending Touch (ACTION_UP): 0:(118.86983,875.5798)
+Sleeping for 500 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.nongfadai.android.beta3220/com.nongfadai.android.module.welcome.activity.WelcomeActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.nongfadai.android.beta3220/com.nongfadai.android.module.welcome.activity.WelcomeActivity } in package com.nongfadai.android.beta3220
+    // activityResuming(com.nongfadai.android.beta3220)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(795.0,414.0)
+:Sending Touch (ACTION_UP): 0:(801.6882,414.00098)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1038.0,1243.0)
+:Sending Touch (ACTION_UP): 0:(1034.6812,1241.6892)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 500 milliseconds
+    // Rejecting start of Intent { cmp=com.vivo.upslide/.recents.RecentsActivity } in package com.vivo.upslide
+:Sending Touch (ACTION_DOWN): 0:(639.0,949.0)
+:Sending Touch (ACTION_MOVE): 0:(632.1324,944.3184)
+:Sending Touch (ACTION_MOVE): 0:(628.4662,937.2215)
+:Sending Touch (ACTION_MOVE): 0:(622.1648,924.14404)
+:Sending Touch (ACTION_MOVE): 0:(615.9865,921.9424)
+:Sending Touch (ACTION_MOVE): 0:(615.0304,921.5214)
+:Sending Touch (ACTION_MOVE): 0:(613.54504,913.8099)
+:Sending Touch (ACTION_MOVE): 0:(612.3789,901.00555)
+:Sending Touch (ACTION_UP): 0:(605.97504,892.1169)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(630.0,2218.0)
+:Sending Touch (ACTION_UP): 0:(631.26495,2221.6365)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(912.0,1425.0)
+:Sending Touch (ACTION_UP): 0:(909.3481,1432.9443)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 263    // KEYCODE_NAVIGATE_OUT
+:Sending Key (ACTION_UP): 263    // KEYCODE_NAVIGATE_OUT
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(518.0,157.0)
+:Sending Touch (ACTION_MOVE): 0:(516.8472,144.61421)
+:Sending Touch (ACTION_MOVE): 0:(510.89648,138.23314)
+:Sending Touch (ACTION_MOVE): 0:(499.18533,133.64873)
+:Sending Touch (ACTION_MOVE): 0:(484.68036,129.78102)
+:Sending Touch (ACTION_MOVE): 0:(474.7378,126.30625)
+:Sending Touch (ACTION_MOVE): 0:(460.7455,110.88524)
+:Sending Touch (ACTION_MOVE): 0:(445.85464,95.371605)
+:Sending Touch (ACTION_UP): 0:(445.84985,92.33959)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 214    // KEYCODE_HENKAN
+:Sending Key (ACTION_UP): 214    // KEYCODE_HENKAN
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 214    // KEYCODE_HENKAN
+:Sending Key (ACTION_UP): 214    // KEYCODE_HENKAN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(209.0,951.0)
+:Sending Touch (ACTION_MOVE): 0:(201.73788,940.95337)
+    //[calendar_time:2019-08-30 16:07:05.833  system_uptime:88843580]
+    // Sending event #100
+:Sending Touch (ACTION_MOVE): 0:(199.21973,927.6348)
+:Sending Touch (ACTION_MOVE): 0:(192.38966,924.0253)
+:Sending Touch (ACTION_MOVE): 0:(190.21579,919.6921)
+:Sending Touch (ACTION_MOVE): 0:(184.25995,907.719)
+:Sending Touch (ACTION_MOVE): 0:(183.65015,896.96344)
+:Sending Touch (ACTION_MOVE): 0:(180.86047,881.889)
+:Sending Touch (ACTION_UP): 0:(179.18095,877.18774)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(20.0,1721.0)
+:Sending Touch (ACTION_UP): 0:(18.729225,1718.7134)
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 254    // KEYCODE_TV_AUDIO_DESCRIPTION_MIX_DOWN
+:Sending Key (ACTION_UP): 254    // KEYCODE_TV_AUDIO_DESCRIPTION_MIX_DOWN
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(589.0,1158.0)
+:Sending Touch (ACTION_UP): 0:(569.5012,1157.1339)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(476.0,614.0)
+:Sending Touch (ACTION_MOVE): 0:(471.99918,615.89886)
+:Sending Touch (ACTION_UP): 0:(469.00696,621.0121)
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(237.0,1556.0)
+:Sending Touch (ACTION_UP): 0:(247.3043,1570.0021)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 500 milliseconds
+    // Rejecting start of Intent { cmp=com.vivo.upslide/.recents.RecentsActivity } in package com.vivo.upslide
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+    // activityResuming(com.bbk.launcher2)
+    // Rejecting resume of package com.bbk.launcher2
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=true
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 16    // KEYCODE_9
+:Sending Key (ACTION_UP): 16    // KEYCODE_9
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.baidu.searchbox/com.baidu.search.fastsearch.SearchActivity } in package com.baidu.searchbox
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+    //[calendar_time:2019-08-30 16:07:14.295  system_uptime:88852040]
+    // Sending event #200
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Key (ACTION_DOWN): 286    // KEYCODE_BAR_SWIPE
+:Sending Key (ACTION_UP): 286    // KEYCODE_BAR_SWIPE
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 290    // KEYCODE_FINGERPRINT_KEY
+:Sending Key (ACTION_UP): 290    // KEYCODE_FINGERPRINT_KEY
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(340.0,480.0)
+:Sending Touch (ACTION_UP): 0:(338.7302,461.70294)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 269    // KEYCODE_DPAD_DOWN_LEFT
+:Sending Key (ACTION_UP): 269    // KEYCODE_DPAD_DOWN_LEFT
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(376.0,211.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(375.80008,209.09126) 1:(565.0,1258.0)
+:Sending Touch (ACTION_MOVE): 0:(375.78006,191.5838) 1:(567.7999,1253.3312)
+:Sending Touch (ACTION_MOVE): 0:(375.73386,167.99405) 1:(571.3839,1245.4097)
+:Sending Touch (ACTION_MOVE): 0:(375.5424,153.5605) 1:(573.46075,1241.1473)
+:Sending Touch (ACTION_MOVE): 0:(375.40292,150.284) 1:(576.68396,1237.8798)
+:Sending Touch (ACTION_MOVE): 0:(375.28198,140.68716) 1:(580.9234,1235.4419)
+:Sending Touch (ACTION_MOVE): 0:(375.1214,118.046906) 1:(583.6244,1232.1055)
+:Sending Touch (ACTION_MOVE): 0:(375.10947,95.771935) 1:(587.28503,1224.4108)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(374.9071,81.05741) 1:(590.712,1215.5295)
+:Sending Touch (ACTION_UP): 0:(374.79355,73.959694)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(203.0,1368.0)
+:Sending Touch (ACTION_UP): 0:(205.21313,1372.6215)
+Sleeping for 500 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.BBKClock/.Timer } in package com.android.BBKClock
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1008.0,562.0)
+:Sending Touch (ACTION_MOVE): 0:(995.39307,567.26556)
+:Sending Touch (ACTION_MOVE): 0:(991.05615,572.9648)
+:Sending Touch (ACTION_MOVE): 0:(977.4088,589.63153)
+:Sending Touch (ACTION_MOVE): 0:(973.3155,597.84235)
+:Sending Touch (ACTION_MOVE): 0:(962.32544,603.4603)
+:Sending Touch (ACTION_MOVE): 0:(958.60065,613.39)
+:Sending Touch (ACTION_UP): 0:(948.1354,617.8765)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(332.0,1241.0)
+:Sending Touch (ACTION_MOVE): 0:(329.01932,1240.5549)
+:Sending Touch (ACTION_MOVE): 0:(310.00443,1240.2301)
+:Sending Touch (ACTION_MOVE): 0:(299.65665,1239.7522)
+:Sending Touch (ACTION_MOVE): 0:(291.06055,1239.3282)
+:Sending Touch (ACTION_MOVE): 0:(279.444,1239.0684)
+:Sending Touch (ACTION_MOVE): 0:(273.03683,1238.7313)
+:Sending Touch (ACTION_MOVE): 0:(252.916,1238.401)
+:Sending Touch (ACTION_MOVE): 0:(246.21507,1238.2084)
+:Sending Touch (ACTION_UP): 0:(238.45609,1237.9818)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1007.0,1739.0)
+:Sending Touch (ACTION_MOVE): 0:(1005.9165,1738.9453)
+:Sending Touch (ACTION_MOVE): 0:(1002.0291,1738.336)
+:Sending Touch (ACTION_MOVE): 0:(1001.0296,1737.571)
+:Sending Touch (ACTION_MOVE): 0:(997.35944,1737.2849)
+:Sending Touch (ACTION_MOVE): 0:(996.2442,1737.2328)
+:Sending Touch (ACTION_UP): 0:(995.9908,1736.7792)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 8    // KEYCODE_1
+:Sending Key (ACTION_UP): 8    // KEYCODE_1
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.baidu.searchbox/com.baidu.search.fastsearch.SearchActivity } in package com.baidu.searchbox
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Touch (ACTION_DOWN): 0:(768.0,1917.0)
+:Sending Touch (ACTION_UP): 0:(767.997,1903.3875)
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(528.0,1490.0)
+:Sending Touch (ACTION_UP): 0:(510.069,1480.2667)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(677.0,1010.0)
+:Sending Touch (ACTION_UP): 0:(681.52344,1009.4043)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 136    // KEYCODE_F6
+:Sending Key (ACTION_UP): 136    // KEYCODE_F6
+    //[calendar_time:2019-08-30 16:07:26.051  system_uptime:88863797]
+    // Sending event #300
+Sleeping for 500 milliseconds
+    //[calendar_time:2019-08-30 16:07:26.555  system_uptime:88864300]
+    // Sending event #300
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 94    // KEYCODE_PICTSYMBOLS
+:Sending Key (ACTION_UP): 94    // KEYCODE_PICTSYMBOLS
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(565.0,497.0)
+:Sending Touch (ACTION_UP): 0:(566.14105,495.58057)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 185    // KEYCODE_PROG_YELLOW
+:Sending Key (ACTION_UP): 185    // KEYCODE_PROG_YELLOW
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(979.0,1727.0)
+:Sending Touch (ACTION_UP): 0:(988.1511,1739.1335)
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(249.0,1063.0)
+:Sending Touch (ACTION_MOVE): 0:(246.2422,1044.8005)
+:Sending Touch (ACTION_UP): 0:(243.36009,1036.699)
+Sleeping for 500 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.bbk.appstore/.ui.AppStore } in package com.bbk.appstore
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 500 milliseconds
+    // Rejecting start of Intent { cmp=com.vivo.upslide/.recents.RecentsActivity } in package com.vivo.upslide
+:Sending Touch (ACTION_DOWN): 0:(522.0,1844.0)
+:Sending Touch (ACTION_UP): 0:(520.9636,1843.8109)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 95    // KEYCODE_SWITCH_CHARSET
+:Sending Key (ACTION_UP): 95    // KEYCODE_SWITCH_CHARSET
+Sleeping for 500 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 211    // KEYCODE_ZENKAKU_HANKAKU
+:Sending Key (ACTION_UP): 211    // KEYCODE_ZENKAKU_HANKAKU
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 294    // KEYCODE_FINGERPRINT_WAKE_DFP
+:Sending Key (ACTION_UP): 294    // KEYCODE_FINGERPRINT_WAKE_DFP
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 500 milliseconds
+    // Rejecting start of Intent { cmp=com.vivo.upslide/.recents.RecentsActivity } in package com.vivo.upslide
+:Sending Key (ACTION_DOWN): 110    // KEYCODE_BUTTON_MODE
+:Sending Key (ACTION_UP): 110    // KEYCODE_BUTTON_MODE
+Sleeping for 500 milliseconds
+    // Rejecting start of Intent { cmp=com.vivo.upslide/.recents.RecentsActivity } in package com.vivo.upslide
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(515.0,1573.0)
+:Sending Touch (ACTION_MOVE): 0:(526.26556,1558.699)
+:Sending Touch (ACTION_MOVE): 0:(533.8112,1557.4757)
+:Sending Touch (ACTION_MOVE): 0:(543.82355,1550.4309)
+:Sending Touch (ACTION_MOVE): 0:(554.24475,1539.7468)
+:Sending Touch (ACTION_UP): 0:(563.5912,1538.4854)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(375.0,218.0)
+:Sending Touch (ACTION_UP): 0:(378.86374,217.15901)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(279.0,474.0)
+:Sending Touch (ACTION_MOVE): 0:(302.64316,471.35974)
+:Sending Touch (ACTION_MOVE): 0:(321.47647,461.80884)
+:Sending Touch (ACTION_MOVE): 0:(343.40466,451.58307)
+:Sending Touch (ACTION_MOVE): 0:(362.52402,439.3481)
+:Sending Touch (ACTION_MOVE): 0:(367.32013,426.8724)
+:Sending Touch (ACTION_MOVE): 0:(369.8329,416.60867)
+:Sending Touch (ACTION_MOVE): 0:(390.25818,408.4239)
+:Sending Touch (ACTION_MOVE): 0:(394.93762,404.65735)
+:Sending Touch (ACTION_MOVE): 0:(395.77042,387.93036)
+:Sending Touch (ACTION_UP): 0:(413.79337,375.2687)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(258.0,775.0)
+:Sending Touch (ACTION_UP): 0:(261.13452,767.1843)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.bbk.launcher2/.Launcher } in package com.bbk.launcher2
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(981.0,626.0)
+:Sending Touch (ACTION_UP): 0:(985.30396,624.68665)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(782.0,213.0)
+:Sending Touch (ACTION_UP): 0:(780.95917,210.31717)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1006.0,280.0)
+:Sending Touch (ACTION_MOVE): 0:(1003.3812,281.01913)
+:Sending Touch (ACTION_UP): 0:(994.8616,281.66885)
+Sleeping for 500 milliseconds
+:Sending Flip keyboardOpen=false
+Got IOException performing flipjava.io.IOException: write failed: EINVAL (Invalid argument)
+    // Injection Failed
+    //[calendar_time:2019-08-30 16:07:43.114  system_uptime:88880860]
+    // Sending event #400
+Sleeping for 500 milliseconds
+    //[calendar_time:2019-08-30 16:07:43.615  system_uptime:88881361]
+    // Sending event #400
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(177.0,267.0)
+:Sending Touch (ACTION_UP): 0:(187.06146,266.52676)
+Sleeping for 500 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(795.0,1870.0)
+:Sending Touch (ACTION_UP): 0:(801.40356,1847.9436)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 500 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.nongfadai.android.beta3220/com.nongfadai.android.module.welcome.activity.WelcomeActivity } in package com.nongfadai.android.beta3220
+    // activityResuming(com.nongfadai.android.beta3220)
+:Sending Key (ACTION_DOWN): 166    // KEYCODE_CHANNEL_UP
+:Sending Key (ACTION_UP): 166    // KEYCODE_CHANNEL_UP
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 500 milliseconds
+    // activityResuming(com.nongfadai.android.beta3220)
+:Sending Touch (ACTION_DOWN): 0:(570.0,2082.0)
+:Sending Touch (ACTION_MOVE): 0:(574.0733,2087.1946)
+:Sending Touch (ACTION_MOVE): 0:(576.0801,2089.9883)
+:Sending Touch (ACTION_MOVE): 0:(577.38055,2095.5813)
+:Sending Touch (ACTION_MOVE): 0:(582.11053,2095.782)
+:Sending Touch (ACTION_MOVE): 0:(585.1579,2101.2007)
+:Sending Touch (ACTION_MOVE): 0:(587.4076,2107.2192)
+:Sending Touch (ACTION_UP): 0:(588.1572,2110.3296)
+Sleeping for 500 milliseconds
+    // activityResuming(com.nongfadai.android.beta3220)
+    // activityResuming(com.nongfadai.android.beta3220)
+:Sending Touch (ACTION_DOWN): 0:(48.0,1261.0)
+:Sending Touch (ACTION_UP): 0:(39.81894,1277.8778)
+Sleeping for 500 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.appbar/.MainActivity } in package com.example.appbar
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 500 milliseconds
+:Sending Key (ACTION_DOWN): 98    // KEYCODE_BUTTON_C
+:Sending Key (ACTION_UP): 98    // KEYCODE_BUTTON_C
+Sleeping for 500 milliseconds
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.nongfadai.android.beta3220/com.nongfadai.android.module.welcome.activity.WelcomeActivity } in package com.nongfadai.android.beta3220
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)

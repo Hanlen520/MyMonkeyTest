@@ -1,0 +1,25 @@
+#设备相关配置
+# apk包名
+#apkname: com.nongfadai.android
+apkname: com.nongfadai.android.beta3220
+# 设备号
+#华为mate8  :  APU7N16916001582
+device: 69d8ac6f
+# apk路径
+apkpath: ..\App\布谷3.2.2beta.apk
+# app是否是debug
+appdebug: False
+# 设备是否模拟器参数
+simulator: False
+
+
+#monkey相关配置
+#monkey运行时间（1-600min）
+runtime: 1
+# monkey命令的seed值
+seed: 20
+# 时间间隔
+throttle: 500
+# 日志等级
+loglevel: INFO
+

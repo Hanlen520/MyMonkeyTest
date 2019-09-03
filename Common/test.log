@@ -1,0 +1,3 @@
+DEBUG:2019-08-30 13:49:10 logger.py[line:23]   this is debug log
+INFO:2019-08-30 13:49:10 logger.py[line:24]   this is info log
+ERROR:2019-08-30 13:49:10 logger.py[line:25]   this is error log
